@@ -14,144 +14,194 @@ get_header();
 
 
 <main>
-    <!-- Static Page Banner -->
-    <section class="page-banner">
-        <div class="page-banner-bg" style="background-image: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1920&q=80');"></div>
-        <div class="page-banner-overlay"></div>
-        <div class="container">
-            <div class="page-banner-content">
-                <span class="section-label">Reach Out in Safety</span>
-                <h1>Connect With Our Team</h1>
-                <div class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <span class="breadcrumb-sep">/</span>
-                    <span class="breadcrumb-current">Contact Us</span>
-                </div>
-            </div>
+    <!-- HERO -->
+    <section class="contact-hero">
+        <div class="contact-hero__blob contact-hero__blob--1"></div>
+        <div class="contact-hero__blob contact-hero__blob--2"></div>
+        <div class="contact-hero__inner reveal">
+            <p class="section-eyebrow">Reach Out</p>
+            <h1 class="section-title" style="font-size:clamp(2.8rem,6vw,5rem)">
+                You Don't Have<br />to Walk This<br /><em>Alone.</em>
+            </h1>
+            <p class="contact-hero__sub">
+                Whether you're ready to begin, just exploring options, or reaching out for a loved one — we are here. No judgement. Only care.
+            </p>
         </div>
     </section>
-    <!-- Contact Section Grid -->
-    <section class="contact-section section-pad">
-        <div class="container">
 
-            <!-- 24/7 Emergency crisis box on top of mobile viewports -->
-            <div class="emergency-box reveal" id="emergency">
-                <div class="emergency-box-header">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
-                        <line x1="12" y1="8" x2="12" y2="12" />
-                        <line x1="12" y1="16" x2="12.01" y2="16" />
-                    </svg>
-                    <h4>24/7 Immediate Crisis Assistance</h4>
+    <!-- CRISIS BANNER -->
+    <div class="crisis-banner reveal">
+        <div class="crisis-banner__inner">
+            <span class="crisis-banner__icon">🆘</span>
+            <p><strong>In immediate crisis?</strong> Our helpline is available 24 hours a day, 7 days a week.</p>
+            <a href="tel:+18005551234" class="btn btn--primary btn--sm">Call 1-800-555-1234</a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTACT SECTION -->
+    <section class="contact-main">
+        <div class="contact-main__inner">
+
+            <!-- INFO PANEL -->
+            <div class="contact-info reveal">
+                <h2 class="contact-info__title">Get in <em>Touch</em></h2>
+                <p class="contact-info__body">
+                    Our intake coordinators are gentle, experienced, and ready to listen. Reach out by phone, email, or fill in the form — whichever feels right for you.
+                </p>
+
+                <div class="contact-detail">
+                    <div class="contact-detail__icon">📞</div>
+                    <div>
+                        <span class="contact-detail__label">Phone</span>
+                        <a href="tel:+18005551234" class="contact-detail__value">1-800-555-1234</a>
+                        <span class="contact-detail__note">24/7 crisis &amp; intake line</span>
+                    </div>
                 </div>
-                <p>If you or a loved one is facing an immediate mental health, drug dependency, or housing safety crisis, do not wait. We operate an absolute confidentiality, direct click-to-call helpline 24 hours a day, 7 days a week.</p>
-                <a href="tel:+18005554722" class="emergency-phone"><i class="fa-solid fa-phone-volume"></i> 1-800-555-GRACE (4722)</a>
+
+                <div class="contact-detail">
+                    <div class="contact-detail__icon">✉️</div>
+                    <div>
+                        <span class="contact-detail__label">Email</span>
+                        <a href="mailto:hello@gracefoundation.org" class="contact-detail__value">hello@gracefoundation.org</a>
+                        <span class="contact-detail__note">We respond within 24 hours</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="contact-detail__icon">📍</div>
+                    <div>
+                        <span class="contact-detail__label">Location</span>
+                        <span class="contact-detail__value">Grace Foundation Centre</span>
+                        <span class="contact-detail__note">123 Healing Garden Lane, Serenity, CA 90210</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="contact-detail__icon">🕐</div>
+                    <div>
+                        <span class="contact-detail__label">Office Hours</span>
+                        <span class="contact-detail__value">Mon – Fri: 8am – 6pm</span>
+                        <span class="contact-detail__note">Crisis line available 24/7</span>
+                    </div>
+                </div>
+
+                <div class="contact-reassurance">
+                    <div class="reassurance-item">
+                        <span>🔒</span>
+                        <p>All enquiries are completely confidential.</p>
+                    </div>
+                    <div class="reassurance-item">
+                        <span>💚</span>
+                        <p>No pressure, no judgement — ever.</p>
+                    </div>
+                    <div class="reassurance-item">
+                        <span>🌿</span>
+                        <p>We speak with you, not at you.</p>
+                    </div>
+                </div>
             </div>
-            <div class="contact-grid">
 
-                <!-- Left Column: Form -->
-                <div class="contact-form-area reveal">
-                    <h2>Confidential Inquiry Form</h2>
-                    <p>Have questions about admissions, facilities, pricing, or custom therapy tracks? Send our counselors an email. We will reach out to you with the utmost confidentiality.</p>
+            <!-- FORM PANEL -->
+            <div class="contact-form-wrap reveal" data-delay="200">
+                <div class="contact-form-card">
+                    <h3 class="contact-form-card__title">Send Us a Message</h3>
+                    <p class="contact-form-card__sub">Fill in whatever you're comfortable sharing. We'll take it from there.</p>
 
-                    <!-- Form response notifications -->
-                    <div class="form-feedback"></div>
+                    <div id="formSuccess" class="form-success" style="display:none;">
+                        <span>🌿</span>
+                        <h4>Thank you for reaching out.</h4>
+                        <p>Your message has been received. A member of our team will be in touch within 24 hours. You are not alone.</p>
+                    </div>
 
-                    <form id="graceContactForm" action="#" method="POST" novalidate>
-                        <!-- Row 1: Name and Email -->
+                    <div id="contactForm">
                         <div class="form-row">
                             <div class="form-group">
-                                <label class="form-label" for="name">Your Name *</label>
-                                <input class="form-input" type="text" id="name" name="name" placeholder="Sarah Jenkins" required>
+                                <label for="firstName">First Name <span class="required">*</span></label>
+                                <input type="text" id="firstName" placeholder="Your first name" required />
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="email">Email Address *</label>
-                                <input class="form-input" type="email" id="email" name="email" placeholder="sarah@example.com" required>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" placeholder="Your last name" />
                             </div>
                         </div>
-                        <!-- Row 2: Select inquiry type -->
-                        <div class="form-group">
-                            <label class="form-label" for="subject">How can we support you?</label>
-                            <select class="form-select" id="subject" name="subject">
-                                <option value="admissions">Clinical Admissions &amp; Pricing</option>
-                                <option value="programs">Program Details &amp; Therapy Tracks</option>
-                                <option value="visiting">Visiting Schedules &amp; Tours</option>
-                                <option value="alumni">Alumni Networks &amp; Sponsorships</option>
-                                <option value="general">General Support Inquiries</option>
-                            </select>
-                        </div>
-                        <!-- Row 3: Message -->
-                        <div class="form-group">
-                            <label class="form-label" for="message">Confidential Message *</label>
-                            <textarea class="form-textarea" id="message" name="message" placeholder="Please share your story, questions, or specific needs. All messages are encrypted and strictly confidential." required></textarea>
-                        </div>
-                        <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary mt-1">Submit Secured Inquiry</button>
-                    </form>
-                </div>
-                <!-- Right Column: Info & Map -->
-                <div class="contact-info reveal reveal-delay-2">
-                    <h3>Our Sanctuary Location</h3>
-                    <p>We are situated in a tranquil, peaceful valley shielded from city noises, offering clean mountain air and calming environments ideal for personal reflection and physical restoration.</p>
 
-                    <div class="contact-items">
-                        <!-- Item 1: Address -->
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                                    <circle cx="12" cy="10" r="3" />
-                                </svg>
-                            </div>
-                            <div>
-                                <div class="contact-item-title">Physical Address</div>
-                                <div class="contact-item-value">108 Healing Waters Parkway, Soothing Valley, CA 90210</div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" placeholder="your@email.com" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 (000) 000-0000" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="enquiryType">Nature of Enquiry <span class="required">*</span></label>
+                            <div class="select-wrap">
+                                <select id="enquiryType" required>
+                                    <option value="" disabled selected>Please select…</option>
+                                    <option value="self">I am seeking help for myself</option>
+                                    <option value="loved-one">I am seeking help for a loved one</option>
+                                    <option value="programs">I want to learn about programmes</option>
+                                    <option value="volunteer">I'd like to volunteer or support</option>
+                                    <option value="media">Media / press enquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="select-arrow">↓</span>
                             </div>
                         </div>
-                        <!-- Item 2: Phone -->
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <div class="contact-item-title">General Admissions Office</div>
-                                <div class="contact-item-value">1-800-555-GRACE (4722)</div>
-                            </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message <span class="required">*</span></label>
+                            <textarea id="message" rows="5" placeholder="Share as little or as much as you'd like. We are here to listen." required></textarea>
                         </div>
-                        <!-- Item 3: Email -->
-                        <div class="contact-item">
-                            <div class="contact-item-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                                    <polyline points="22,6 12,13 2,6" />
-                                </svg>
-                            </div>
-                            <div>
-                                <div class="contact-item-title">Secure Encrypted Email</div>
-                                <div class="contact-item-value">admissions@gracefoundation.org</div>
-                            </div>
+
+                        <div class="form-group form-group--check">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="consent" required />
+                                <span class="checkmark"></span>
+                                I understand my information will be kept confidential and used only to respond to my enquiry.
+                            </label>
                         </div>
+
+                        <button type="button" class="btn btn--primary btn--large btn--full" id="submitBtn" onclick="submitForm()">
+                            Send My Message
+                        </button>
+
+                        <p class="form-privacy">🔒 Your details are protected and never shared. <a href="#">Privacy Policy</a></p>
                     </div>
-                    <!-- Leaflet.js Interactive Map (CARTO Voyager theme matching the design) -->
-                    <div class="map-placeholder mt-3" style="border:none; padding:0; overflow:hidden;">
-                        <div id="contact-map"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MAP / FIND US -->
+    <section class="find-us reveal">
+        <div class="find-us__inner">
+            <div class="find-us__text">
+                <p class="section-eyebrow">Find Us</p>
+                <h2 class="section-title">Visit Our <em>Centre</em></h2>
+                <p>Our healing centre is set in a calm, private location designed to feel safe, welcoming, and removed from daily pressures — a true sanctuary.</p>
+                <div class="find-us__address">
+                    <p>123 Healing Garden Lane</p>
+                    <p>Serenity, California 90210</p>
+                    <p>United States</p>
+                </div>
+                <a href="https://maps.google.com" target="_blank" class="btn btn--ghost" style="margin-top:2rem;">Get Directions →</a>
+            </div>
+            <div class="find-us__map">
+                <!-- Decorative map placeholder -->
+                <div class="map-placeholder">
+                    <div class="map-placeholder__grid"></div>
+                    <div class="map-placeholder__pin">
+                        <div class="map-placeholder__dot"></div>
+                        <div class="map-placeholder__ripple"></div>
+                        <span>Grace Foundation</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</main>
-<!-- WORDPRESS TEMPLATE REFERENCE: FOOTER START (wp-theme/footer.php) -->
-<!-- Scroll to Top Button -->
-<button class="scroll-top" aria-label="Scroll back to top" id="scrollTopBtn">
-    <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-        <polyline points="18 15 12 9 6 15" />
-    </svg>
-</button>
-
-
-
-<?php
-get_footer();
+    <?php
+    get_footer();

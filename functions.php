@@ -152,7 +152,7 @@ function gracefoundation_scripts()
 
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), null, true);
-	wp_enqueue_script('lenis', 'https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js', array(), null, true);
+	wp_enqueue_script('lenis','https://unpkg.com/lenis@1.3.11/dist/lenis.min.js',array(),null,true);
 	wp_enqueue_script('main-js',get_template_directory_uri() . '/assets/js/main.js',array('jquery'),null,true);
 	wp_enqueue_script('gracefoundation-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
 
