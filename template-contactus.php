@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Contact us
+ * Template Name: Contact us new
 
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
@@ -14,6 +14,10 @@ get_header();
 
 
 <main>
+    <!-- 1. Hero Section (Slick Slider Banner) -->
+    <!-- ═══ CURSOR ═══ -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
     <!-- HERO -->
     <section class="contact-hero">
         <div class="contact-hero__blob contact-hero__blob--1"></div>
@@ -34,7 +38,7 @@ get_header();
         <div class="crisis-banner__inner">
             <span class="crisis-banner__icon">🆘</span>
             <p><strong>In immediate crisis?</strong> Our helpline is available 24 hours a day, 7 days a week.</p>
-            <a href="tel:+18005551234" class="btn btn--primary btn--sm">Call 1-800-555-1234</a>
+            <a href="tel:+9779876765432" class="btn btn--primary btn--sm">Call +977 9876 765432</a>
         </div>
     </div>
 
@@ -53,7 +57,7 @@ get_header();
                     <div class="contact-detail__icon">📞</div>
                     <div>
                         <span class="contact-detail__label">Phone</span>
-                        <a href="tel:+18005551234" class="contact-detail__value">1-800-555-1234</a>
+                        <a href="tel:+18005551234" class="contact-detail__value">+977 9876 765432</a>
                         <span class="contact-detail__note">24/7 crisis &amp; intake line</span>
                     </div>
                 </div>
@@ -62,7 +66,7 @@ get_header();
                     <div class="contact-detail__icon">✉️</div>
                     <div>
                         <span class="contact-detail__label">Email</span>
-                        <a href="mailto:hello@gracefoundation.org" class="contact-detail__value">hello@gracefoundation.org</a>
+                        <a href="mailto:info@gracefoundation.org.np" class="contact-detail__value">info@gracefoundation.org.np</a>
                         <span class="contact-detail__note">We respond within 24 hours</span>
                     </div>
                 </div>
@@ -184,24 +188,24 @@ get_header();
                 <h2 class="section-title">Visit Our <em>Centre</em></h2>
                 <p>Our healing centre is set in a calm, private location designed to feel safe, welcoming, and removed from daily pressures — a true sanctuary.</p>
                 <div class="find-us__address">
-                    <p>123 Healing Garden Lane</p>
-                    <p>Serenity, California 90210</p>
-                    <p>United States</p>
+                    <p>Grace Foundation</p>
+                    <p>Sisneri, Lamatar</p>
+                    <p>Nepal</p>
                 </div>
                 <a href="https://maps.google.com" target="_blank" class="btn btn--ghost" style="margin-top:2rem;">Get Directions →</a>
             </div>
             <div class="find-us__map">
                 <!-- Decorative map placeholder -->
                 <div class="map-placeholder">
-                    <div class="map-placeholder__grid"></div>
+                    <!-- <div class="map-placeholder__grid"></div>
                     <div class="map-placeholder__pin">
                         <div class="map-placeholder__dot"></div>
-                        <div class="map-placeholder__ripple"></div>
-                        <span>Grace Foundation</span>
-                    </div>
+                        <div class="map-placeholder__ripple"></div>              
+                    </div> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.013884689935!2d85.39140067538958!3d27.624086629158967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1108d3f4873f%3A0x3b77a364b04ea0b9!2sGrace%20foundation!5e0!3m2!1sne!2snp!4v1780541771802!5m2!1sne!2snp" width="100% " height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
     <?php
     get_footer();

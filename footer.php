@@ -42,7 +42,7 @@
 				<div class="footer__col">
 					<h4>Get Help Now</h4>
 					<p class="footer__helpline">Crisis Line</p>
-					<a href="tel:+18005551234" class="footer__phone">1-800-555-1234</a>
+					<a href="tel:+9779876765432" class="footer__phone">+977 9876 765432</a>
 					<p class="footer__hours">Available 24/7</p>
 					<a href="contact.html" class="btn btn--primary btn--sm" style="margin-top:1rem">Contact Us</a>
 				</div>
